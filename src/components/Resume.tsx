@@ -4,7 +4,7 @@ const Resume = () => {
   const experience = [
     {
       title: "Penetration Tester",
-      company: "EY",
+      company: "Ernst & Young (EY)",
       period: "November 2020 - June 2021",
       description: "Conducted penetration testing activities (Web, API, Infrastructure) for Fortune 500 clients including banks and insurance companies. Managed vulnerability scans using Qualys, Nessus, and Acunetix. Proactively identified and assessed vulnerabilities, collaborating with client teams to prioritize fixes. Participated in Vulnerability Management team for high & critical vulnerability monitoring."
     },
@@ -30,25 +30,25 @@ const Resume = () => {
 
   const education = [
     {
-      degree: "Masters in Cybersecurity & AI",
+      degree: "Master of Cybersecurity & AI",
       institution: "Evolve Academy",
       period: "2026",
       details: "Advanced studies in cybersecurity practices integrated with artificial intelligence"
     },
     {
-      degree: "Masters in Cyber Security",
+      degree: "Master of Cyber Security",
       institution: "Camilo José Cela University",
       period: "2020",
       details: "Specialized training in cybersecurity methodologies and practices"
     },
     {
-      degree: "Masters in Productivity and Personal Development",
-      institution: "Alcalá de Henares University",
+      degree: "Master of Productivity and Personal Development",
+      institution: "University of Alcalá",
       period: "2018",
       details: "Focus on efficiency optimization and professional development"
     },
     {
-      degree: "Degree in Industrial Electronics and Automation Engineering",
+      degree: "Bachelor of Industrial Electronics and Automation Engineering",
       institution: "University of Córdoba",
       period: "2017",
       details: "Engineering foundation in electronics, automation, and control systems"

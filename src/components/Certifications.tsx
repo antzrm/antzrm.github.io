@@ -7,40 +7,40 @@ const Certifications = () => {
       issuer: "Offensive Security",
       date: "October 2024",
       icon: Shield,
-      link: "#"
+      link: "https://www.credential.net/78f20e4b-1c25-490b-b34d-bdd50b0b1a4e"
     },
     {
       name: "Mobile Penetration Testing of Android Applications",
       issuer: "Professional Course",
       date: "March 2025",
       icon: CheckCircle2,
-      link: "#"
     },
     {
       name: "Burp Suite Certified Practitioner (BSCP)",
       issuer: "PortSwigger",
       date: "In Progress",
       icon: Award,
-      link: "#"
+      link: "https://portswigger.net/web-security/certification"
     },
     {
       name: "Hack4u: Web Hacking",
       issuer: "Hack4u",
       date: "September 2025",
+      id: "ID: 6167-2232-2965-1562",
       icon: Shield,
-      link: "#"
+      link: "https://hack4u.io/check-certificate/"
     }
   ];
 
   const awards = [
     {
-      title: "HackTheBox Achievements",
-      description: "150+ pwned machines, Dante Pro Lab completed, Offshore Pro Lab completed",
+      title: "HackTheBox",
+      description: "150+ compromised machines, Pro Labs Dante & Offshore completed",
       year: "Ongoing"
     },
     {
       title: "AKKADEMY Training Award",
-      description: "Recognized for outstanding performance in cybersecurity training program in Geneva",
+      description: "Recognized for the best innovative project after one-month training program in Geneva",
       year: "2019"
     }
   ];
@@ -77,6 +77,7 @@ const Certifications = () => {
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">{cert.name}</h4>
                         <p className="text-sm text-primary font-mono mb-1">{cert.issuer}</p>
+                        <p className="text-sm text-primary font-mono mb-1">{cert.id}</p>
                         <p className="text-xs text-muted-foreground">{cert.date}</p>
                       </div>
                     </div>

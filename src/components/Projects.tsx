@@ -4,32 +4,41 @@ import { Button } from "./ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "Web Application Security Scanner",
-      description: "Custom-built automated scanner for detecting OWASP Top 10 vulnerabilities in web applications. Features include SQL injection detection, XSS payload generation, and CSRF token analysis.",
-      tags: ["Python", "Security", "Automation"],
-      github: "#",
-      demo: "#"
+      title: "Homelab",
+      description: "Self-host Docker container apps I use daily and run on a miniPC.",
+      tags: ["Docker", "Self-host", "Automation"],
+      github: "https://github.com/antzrm/Homelab",
     },
     {
-      title: "Network Reconnaissance Framework",
-      description: "Comprehensive network enumeration tool combining multiple techniques for information gathering. Includes subdomain discovery, port scanning, and service fingerprinting capabilities.",
-      tags: ["Go", "Networking", "OSINT"],
-      github: "#",
-      demo: "#"
+      title: "My GitBook",
+      description: "My personal bible for Pentesting, Red Teaming and other Cyber Security fields.",
+      tags: ["GitBook", "Notes", "Hacking"],
+      github: "https://antonioluc93.gitbook.io/hacking/",
     },
     {
-      title: "Exploit Development Lab",
-      description: "Collection of custom exploits and proof-of-concepts developed during security research. Includes buffer overflow exploits, privilege escalation techniques, and memory corruption exploits.",
-      tags: ["C", "Assembly", "Exploitation"],
-      github: "#",
-      demo: "#"
+      title: "Find comments",
+      description: "Find comments on websites by providing URL / JSON file (e.g. ffuf output) or file with full URLs and paths. Useful on assessments to detect hardcoded sensitive data or info left",
+      tags: ["Bash", "Enumeration", "Loot"],
+      github: "https://github.com/antzrm/find_comments",
     },
     {
-      title: "API Security Testing Suite",
-      description: "Specialized toolkit for REST API security testing. Features authentication bypass techniques, rate limiting tests, and automated fuzzing for API endpoints.",
-      tags: ["Python", "API", "Security"],
-      github: "#",
-      demo: "#"
+      title: "rpcenumauth",
+      description: "RPC enumeration tool that works with null creds but also supports authentication (created by s4vitar https://github.com/s4vitar/rpcenum and slightly modified by me).",
+      tags: ["Bash", "Enumeration", "RPC", "Windows"],
+      github: "https://github.com/antzrm/rpcenumauth",
+    },
+    {
+      title: "Blind SQLi",
+      description: "Python scripts to automate the exploitation of blind SQL injection.",
+      tags: ["Python", "Blind SQLi", "injection"],
+      github: "https://github.com/antzrm/blind_SQLi.git",
+    }
+    ,
+    {
+      title: "Non-Hacking Scripts",
+      description: "Tools/scripts not related to hacking/cybersecurity that I have created in my free time.",
+      tags: ["Bash", "non-hacking", "misc"],
+      github: "https://github.com/antzrm/Non-Hacking-Scripts",
     }
   ];
 

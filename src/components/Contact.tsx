@@ -27,7 +27,7 @@ const Contact = () => {
                   className="text-primary hover:text-primary/80 font-mono"
                   asChild
                 >
-                  <a href="mailto:your.email@example.com">your.email@example.com</a>
+                  <a href="mailto:antoniowork.qajq2@slmail.me">antoniowork.qajq2@slmail.me</a>
                 </Button>
               </div>
 
@@ -41,8 +41,8 @@ const Contact = () => {
                   className="text-primary hover:text-primary/80 font-mono"
                   asChild
                 >
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    @yourusername
+                  <a href="https://github.com/antzrm" target="_blank" rel="noopener noreferrer">
+                    @antzrm
                   </a>
                 </Button>
               </div>
@@ -57,8 +57,8 @@ const Contact = () => {
                   className="text-primary hover:text-primary/80 font-mono"
                   asChild
                 >
-                  <a href="https://app.hackthebox.com/profile/yourusername" target="_blank" rel="noopener noreferrer">
-                    @yourusername
+                  <a href="https://app.hackthebox.com/profile/210978" target="_blank" rel="noopener noreferrer">
+                    @antz
                   </a>
                 </Button>
               </div>
@@ -73,8 +73,8 @@ const Contact = () => {
                   className="text-primary hover:text-primary/80 font-mono"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                    @yourusername
+                  <a href="https://linkedin.com/in/ajzm" target="_blank" rel="noopener noreferrer">
+                    @ajzm
                   </a>
                 </Button>
               </div>
@@ -82,10 +82,10 @@ const Contact = () => {
 
             <div className="mt-12 p-6 bg-code-bg rounded-lg border border-primary/20">
               <p className="font-mono text-sm text-muted-foreground mb-2">
-                <span className="text-terminal-green">$</span> echo "Available for freelance penetration testing"
+                <span className="text-terminal-green">$</span> echo "Available for permanent contracts and freelance positions within Europe"
               </p>
               <p className="font-mono text-sm text-primary">
-                → Remote or on-site security assessments
+                → Remote, hybrid or on-site security assessments
               </p>
             </div>
           </div>
